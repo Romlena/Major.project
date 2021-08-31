@@ -1,0 +1,527 @@
+*{margin: 0;
+padding: 0;
+}
+header{
+    background-color: black;
+    padding: 0 20px;
+}
+.header-navbar{
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0px!important;
+}
+.navbar-brand{
+    margin-left: 25px!important;
+}
+.header-menu{
+    padding: 20px 15px 0 15px;
+    text-transform: uppercase;
+}
+.header-menu a{
+    color: white!important;
+}
+.header-dropdown{
+    text-transform: none;
+}
+.header-menu-dropdown {
+    background-color: black;
+    width: 100%;
+}
+.header-menu-dropdown a{
+    color: orange!important;
+    border-bottom: 2px dashed orange;
+}
+.nav>li>a:hover{
+    background-color: black!important;
+}
+.nav>li>a:focus{
+    background-color: black!important;
+}
+#location{
+    padding: 3px;
+}
+.info-company{
+    background-image: url(./img/main.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover ;
+    padding: 50px 0;
+  }
+.info-company-title{
+    text-transform: uppercase;
+    color: white;
+    margin-top: 65px;
+    width: 70%;
+    text
+}
+.info-company-title h1
+{
+    font-weight: bolder;
+    text-shadow: gray;
+}
+.info-company-pictures-img{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 15px;
+}
+.info-company-button{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin-top: 65px;
+    text-align: center;
+    padding: 35px;
+}
+.info-company-button button{
+    background-color:orange;
+    border-color: orange;
+    border-radius: 25px;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 85%;
+    margin: 10px 0;
+    }
+.cost-calculation{
+    background-color: rgb(58, 56, 56);
+}
+.cost-calculation h3{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin: 100px 0 25px 0;
+}
+.cost-calculation p{
+    color: white;
+    text-align: center;
+    font-stretch: extra-expanded;
+    font-size: 16px;
+}
+.cost-calculaculation-form{
+    width: 80%;
+    margin: 35px auto;
+}
+.cost-calculation-form-title{
+    background-color: orange;
+    color: white;
+}
+.cost-calculation-form-title h2{
+    padding: 5px 20px;
+}
+.cost-calculation-form select{
+    width: 75%;
+    height: 30px;
+    padding: 5px;
+    margin-left: 30px;
+    text-transform: capitalize;
+    position: relative;
+}
+.form-select{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+label{
+    padding: 5px 0;
+}
+.sl{
+    width: 70%;
+    /* height: 35px; */
+    position: relative;
+}
+.sl select{
+    width:100%;
+    /* height: 100%; */
+    padding: 5px 15px;
+}
+.sl::after{
+    content:'\25BC';
+    background: orange;
+    position:absolute;
+    right:0;
+    top:0;
+    line-height: 2; 
+    padding:1px 10px;
+    pointer-events: none;
+}
+.cost-calculation-form-date{
+    margin: 25px;
+    width: 10%;
+    background-color: rgb(58, 56, 56);
+    border: 1px solid rgb(58, 56, 56);
+    position: relative;
+}
+.cost-calculation-form-date::before{
+    content: '';
+    background-image: url(./img/calendar.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+    pointer-events: none;
+    padding: 0 10px; 
+} 
+.about-cargo{
+    background-color: rgb(82, 79, 79);
+}
+.container-midi{
+    width: 75%;
+    margin: auto;
+}
+.about-cagro-form{
+    padding: 50px 0;
+}
+.form-select-cargo{
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px 0;
+}
+.sel-cargo{
+    width: 35%;
+    padding: 0 25px; 
+    position: relative;
+}
+.sel-cargo select{
+    width: 100%;
+    padding: 5px;
+}
+.sel-cargo::after{
+    content:'\25BC';
+    background: orange;
+    position:absolute;
+    right: 7px;
+    top:0;
+    line-height: 2; 
+    padding:1px 10px;
+    pointer-events: none;
+}
+.about-cargo-parametrs{
+    margin: 5px 25px;
+    padding: 2px 15px;
+}
+.about-cargo-button{
+    margin: 50px;
+    display: flex;
+}
+.about-cargo-button-btn{
+    width: 30px;
+    position: relative;
+}
+.about-cargo-button input{
+    background-color: transparent;
+    border-color: transparent;
+    width: 100%;
+}
+.about-cargo-button span{
+color:  orange;
+text-decoration-line: underline ;
+margin-left: 25px;
+}
+.about-cargo-button-btn::after{
+    content:'';
+    background-image: url(./img/plus.png);
+    position: absolute;
+    right:0;
+    top:0;
+    padding:1px 10px;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+}
+.order-details{
+    background-color:  rgb(58, 57, 57);
+}
+.order-details-buttons-group{
+    width: 65%;
+    margin: 25px auto;
+    text-align: center;
+}
+.order-details-buttons-group button{
+    background-color: orange;
+    border-color: orange;
+    border-radius: 25px;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 25%;
+    margin: 10px 45px;
+}
+.order-details-choice{
+    width: 90%;
+    margin: auto;
+}
+.order-details-info{
+    background-color: rgb(82, 79, 79);
+    border: 1px solid rgb(82, 79, 79);
+    text-align: center;
+    padding: 20px;
+    height: 255px;
+}
+.active {
+    border: 1px solid orange;
+}
+.order-details-info img{
+    width: 100px;
+    }
+.order-details-info h3{
+    color: white;
+}
+.order-details-info p{
+    color: white;
+}
+.order-details-info p span{
+    color: orange;
+}
+.order-details-map{
+    width: 88%;
+    margin: auto;
+}
+.order-datails-info-adress{
+    background-color:rgb(82, 79, 79);
+    height: 450px;
+    border-radius: 5px 0 0 5px;
+ }
+ .order-datails-info-btn{
+     background-color:rgb(58, 57, 57);
+     margin: 25px 25px 0 25px;
+     padding: 10px 15px;
+     width: 80%;
+     color: white;
+     border: 1px solid rgb(58, 57, 57);
+     border-radius: 5px;
+ }
+.order-datails-info-adress p{
+    color: white;
+    margin: 20px 0 0 25px;
+}
+.order-datails-info-adress-map{
+    margin-left: -15px;
+    border-radius: 0 5px 5px 0;
+}
+.order-details-form-title{
+    color: #ffffff;
+    padding: 5px;
+    margin: 10px 0 10px 40px;
+
+}.order-details-form-title a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+}
+.orange{
+    color:orange!important;
+}
+.order-details-form-input{
+    width: 70%;
+    padding: 5px 15px;
+    margin-left: 15px;
+}
+.form-input{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    width: 80%;
+}
+.form-input label{
+   padding: 10px; 
+}
+.cost-calculation-form-input{
+width: 65%;
+}
+.cost-calculation-form-input input{
+    width: 100%;
+    padding: 5px;
+}
+.dispatch-data{
+    background-color: rgb(82, 79, 79);
+}
+.dispatch-form-input{
+width: 95%;
+display: flex;
+justify-content: space-between;
+margin: 25px 0;
+}
+.disinput{
+width: 65%;
+}
+.disinput input{
+    width: 100%;
+    padding: 5px;
+}
+.total-dispatch{
+    background-color: rgb(58, 57, 57);
+}
+.total-dispatch-form{
+    width: 80%;
+    margin: 35px auto;
+}
+.total-dispatch-form p{
+    color: white;
+}
+.total-dispatch-form-info{
+    margin: 10px auto;
+    background-color: rgb(82, 79, 79);
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.total-dispatch-form-info-end{
+        display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 5px auto;
+    background-color: rgb(82, 79, 79);
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.total-dispatch-buton{
+    display: flex;
+    margin: 0 0 25px 60px;
+   }
+.total-dispatch-buton button{
+    background-color: transparent;
+    border: 1px solid transparent;
+    position: relative;
+}
+.total-dispatch-buton button::after{
+    position: absolute;
+    content:'';
+    background-image: url(./img/plus.png);
+    width: 25px;
+    height: 25px;
+    right: 0;
+    top:0;
+    padding:1px 10px;
+    pointer-events: none;
+}
+.total-dispatch-buton span{
+    color: orange;
+    text-decoration-line: underline;
+    margin-left: 25px;
+}
+.total-dispatch-form-info-end-cell{
+    width: 25%;
+    color: white;
+}
+.mysize{
+    width: 80%;
+    margin: auto;
+}
+.regional-promo{
+    background-color: rgb(82, 79, 79) ;
+}
+.regional-promo img{
+    width: 70px;
+}
+.regional-promo-img{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.regional-promo-img-cell{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-btn{
+    background-color:rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+  .header-dropdown .dropdown-toggle{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.caret{
+    margin-top: -20px;
+}
+.info-company-modal-window span {
+color: white;
+margin-left: 25px;
+font-size: large;
+}
+.regional-promo h3 {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin: 40px 0 60px 0;
+}
+.regional-promo-img-cell p{
+    color: white;
+    width: 70%;
+    text-align: center;
+}
+.contacts{
+    background-color: rgb(71, 70, 70);
+}
+.contacts-img{
+    width: 100%;
+    height: 100%;
+}
+.contacts-info-group{
+    width: 80%;
+    margin: 120px auto;
+}
+.contacts-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts-info img{
+    width: 50px;
+    padding: 10px;
+}
+.contacts-info p{
+    color: white;
+    padding-left: 10px;
+    width: 50%;
+}
+footer{
+    background-color: rgb(17, 17, 17);
+}
+.footer-info{
+    width: 150px;
+    padding: 15px;
+}
+.footer-info p{
+    color: white;
+}
+@media(max-width:768px){
+    .form-select-cargo{
+    flex-direction: column;
+    }  
+    .info-company-pictures-img{
+        flex-wrap: wrap;
+    }   
+    .info-company-button{
+        padding: 5px;
+    }
+    .sel-cargo{
+        width: 95%;
+    }
+    .order-details-buttons-group button{
+        width: 100%;
+        margin: 10px auto;
+    }
+    .order-datails-info-adress-map{
+        width: "250px";
+        height: "225px";
+        margin-left: 0;
+    }
+    .info-company-title{
+        margin-top: 0;
+    }
+    .cost-calculation h3{
+        margin: 15px 0;
+    }
+    .regional-promo h3{
+        margin: 15px 0;
+    }
+    .regional-promo-img{
+        flex-direction: column;
+        padding: 25px 0;
+    }
+}
